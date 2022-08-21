@@ -1,0 +1,134 @@
+object Form1: TForm1
+  Left = 346
+  Height = 471
+  Top = 151
+  Width = 966
+  Caption = 'Monitor de Batimento Cardíaco'
+  ClientHeight = 471
+  ClientWidth = 966
+  OnActivate = FormActivate
+  LCLVersion = '1.8.0.3'
+  object Chart1: TChart
+    Left = 80
+    Height = 352
+    Top = 32
+    Width = 627
+    AxisList = <    
+      item
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+      end    
+      item
+        Alignment = calBottom
+        Minors = <>
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object ChartLineSerieB: TLineSeries
+    end
+  end
+  object Memo1: TMemo
+    Left = 736
+    Height = 346
+    Top = 32
+    Width = 216
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+  end
+  object btnParaCom: TButton
+    Left = 848
+    Height = 25
+    Top = 392
+    Width = 75
+    Caption = 'Parar COM'
+    OnClick = btnParaComClick
+    TabOrder = 2
+  end
+  object btnAtivarCom: TButton
+    Left = 752
+    Height = 25
+    Top = 392
+    Width = 75
+    Caption = 'Ativar COM'
+    OnClick = btnAtivarComClick
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 192
+    Height = 15
+    Top = 400
+    Width = 129
+    Caption = 'Batimentos por Minuto: '
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 336
+    Height = 15
+    Top = 400
+    Width = 6
+    Caption = '0'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 269
+    Height = 15
+    Top = 440
+    Width = 52
+    Caption = 'Intervalo: '
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 336
+    Height = 15
+    Top = 440
+    Width = 6
+    Caption = '0'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 360
+    Height = 15
+    Top = 440
+    Width = 16
+    Caption = 'ms'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 360
+    Height = 15
+    Top = 400
+    Width = 25
+    Caption = 'bpm'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 736
+    Height = 32
+    Top = 424
+    Width = 176
+    Caption = 'Sobre'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object LazSerial1: TLazSerial
+    Active = False
+    BaudRate = br115200
+    DataBits = db8bits
+    Parity = pNone
+    FlowControl = fcNone
+    StopBits = sbOne
+    Device = 'COM6'
+    RcvLineCRLF = False
+    OnRxData = LazSerial1RxData
+    left = 16
+    top = 200
+  end
+end

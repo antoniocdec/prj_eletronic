@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="BatiCore.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="bc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="114"/>
+        <CursorPos X="18" Y="134"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\components\LazSerial\lazserial.pas"/>
+        <UnitName Value="LazSerial"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="260"/>
+        <CursorPos Y="272"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="sobre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="3" Y="46"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="bc.pas"/>
+        <Caret Line="54" Column="3" TopLine="40"/>
+      </Position1>
+      <Position2>
+        <Filename Value="bc.pas"/>
+        <Caret Line="66" Column="20" TopLine="43"/>
+      </Position2>
+      <Position3>
+        <Filename Value="bc.pas"/>
+        <Caret Line="68" Column="20" TopLine="45"/>
+      </Position3>
+      <Position4>
+        <Filename Value="bc.pas"/>
+        <Caret Line="59" Column="3" TopLine="44"/>
+      </Position4>
+      <Position5>
+        <Filename Value="bc.pas"/>
+        <Caret Line="60" Column="3" TopLine="45"/>
+      </Position5>
+      <Position6>
+        <Filename Value="bc.pas"/>
+        <Caret Line="67" Column="9" TopLine="46"/>
+      </Position6>
+      <Position7>
+        <Filename Value="bc.pas"/>
+        <Caret Line="68" Column="9" TopLine="47"/>
+      </Position7>
+      <Position8>
+        <Filename Value="bc.pas"/>
+        <Caret Line="69" Column="9" TopLine="48"/>
+      </Position8>
+      <Position9>
+        <Filename Value="bc.pas"/>
+        <Caret Line="60" Column="3" TopLine="48"/>
+      </Position9>
+      <Position10>
+        <Filename Value="bc.pas"/>
+        <Caret Line="67" Column="3" TopLine="48"/>
+      </Position10>
+      <Position11>
+        <Filename Value="bc.pas"/>
+        <Caret Line="64" Column="4" TopLine="53"/>
+      </Position11>
+      <Position12>
+        <Filename Value="bc.pas"/>
+        <Caret Line="59" Column="38" TopLine="49"/>
+      </Position12>
+      <Position13>
+        <Filename Value="bc.pas"/>
+        <Caret Line="71" Column="5" TopLine="57"/>
+      </Position13>
+      <Position14>
+        <Filename Value="bc.pas"/>
+        <Caret Line="73" Column="3" TopLine="64"/>
+      </Position14>
+      <Position15>
+        <Filename Value="bc.pas"/>
+        <Caret Line="71" Column="26" TopLine="64"/>
+      </Position15>
+      <Position16>
+        <Filename Value="bc.pas"/>
+        <Caret Line="73" Column="3" TopLine="62"/>
+      </Position16>
+      <Position17>
+        <Filename Value="bc.pas"/>
+        <Caret Line="74" Column="7" TopLine="62"/>
+      </Position17>
+      <Position18>
+        <Filename Value="bc.pas"/>
+        <Caret Line="72" Column="22" TopLine="60"/>
+      </Position18>
+      <Position19>
+        <Filename Value="bc.pas"/>
+        <Caret Line="73" Column="35" TopLine="58"/>
+      </Position19>
+      <Position20>
+        <Filename Value="bc.pas"/>
+        <Caret Line="70" Column="22" TopLine="58"/>
+      </Position20>
+      <Position21>
+        <Filename Value="bc.pas"/>
+        <Caret Line="82" Column="2" TopLine="85"/>
+      </Position21>
+      <Position22>
+        <Filename Value="bc.pas"/>
+        <Caret Line="81" Column="2" TopLine="81"/>
+      </Position22>
+      <Position23>
+        <Filename Value="bc.pas"/>
+        <Caret Line="82" Column="2" TopLine="82"/>
+      </Position23>
+      <Position24>
+        <Filename Value="sobre.pas"/>
+        <Caret Line="43" Column="3" TopLine="23"/>
+      </Position24>
+      <Position25>
+        <Filename Value="sobre.pas"/>
+        <Caret Line="44" Column="3" TopLine="24"/>
+      </Position25>
+      <Position26>
+        <Filename Value="sobre.pas"/>
+        <Caret Line="45" Column="3" TopLine="25"/>
+      </Position26>
+      <Position27>
+        <Filename Value="bc.pas"/>
+        <Caret Line="84" Column="3"/>
+      </Position27>
+      <Position28>
+        <Filename Value="bc.pas"/>
+        <Caret Line="86" Column="3" TopLine="63"/>
+      </Position28>
+      <Position29>
+        <Filename Value="bc.pas"/>
+        <Caret Line="134" Column="19" TopLine="114"/>
+      </Position29>
+      <Position30>
+        <Filename Value="bc.pas"/>
+        <Caret Line="12" Column="35"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

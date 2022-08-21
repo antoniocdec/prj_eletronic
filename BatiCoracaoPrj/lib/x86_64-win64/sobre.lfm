@@ -1,0 +1,70 @@
+object Form2: TForm2
+  Left = 570
+  Height = 250
+  Top = 262
+  Width = 320
+  Caption = 'Sobre'
+  ClientHeight = 250
+  ClientWidth = 320
+  LCLVersion = '1.8.0.3'
+  object Label1: TLabel
+    Left = 16
+    Height = 25
+    Top = 16
+    Width = 237
+    Caption = 'Programa desenvolvido por:'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 96
+    Height = 15
+    Top = 56
+    Width = 123
+    Caption = 'Antonio C. de Carvalho'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 140
+    Height = 15
+    Top = 100
+    Width = 117
+    Caption = 'Matheus M. Cerqueira'
+    ParentColor = False
+    OnClick = Label3Click
+  end
+  object Label4: TLabel
+    Left = 148
+    Height = 15
+    Top = 76
+    Width = 6
+    Caption = 'e'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 15
+    Top = 144
+    Width = 267
+    Caption = 'Baseado no Projeto de Joel Murphy e Yury Gitman '
+    ParentColor = False
+    OnClick = Label3Click
+  end
+  object Label6: TLabel
+    Left = 83
+    Height = 15
+    Top = 160
+    Width = 146
+    Caption = 'Pulse Sensor  Starter Project'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 104
+    Height = 15
+    Top = 216
+    Width = 124
+    Caption = 'Aracaju Dezembro 2017'
+    ParentColor = False
+  end
+end
